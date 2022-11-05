@@ -1,11 +1,11 @@
 import React from 'react';
-
+import {Boards} from "./Boards";
 
 
 export const App = () => {
-		return (
-				<div>
-
-				</div>
-		)
+    return (
+        <>
+            <Boards/>
+        </>
+    )
 }
